@@ -1,0 +1,25 @@
+{
+  "model": "RandomForestRegressor",
+  "target": "units_sold",
+  "features": [
+    "store_id",
+    "product_id",
+    "unit_price",
+    "promotion_flag",
+    "discount_pct",
+    "day_of_week",
+    "month",
+    "day_of_month",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "rolling_mean_7",
+    "rolling_mean_14"
+  ],
+  "training_rows": 57280,
+  "testing_rows": 14320,
+  "test_start_date": "2023-08-10",
+  "test_end_date": "2023-12-31",
+  "mae": 7.112486078805384,
+  "rmse": 13.026902800367061
+}

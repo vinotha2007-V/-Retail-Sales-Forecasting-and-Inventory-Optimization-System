@@ -1,0 +1,8 @@
+{
+  "store_product_combinations": 100,
+  "items_requiring_reorder": 56,
+  "service_level": 0.95,
+  "ordering_cost_assumption": 100.0,
+  "annual_holding_rate_assumption": 0.25,
+  "note": "Prototype estimates based on historical stock and test-period forecasts; validate with current inventory data before real use."
+}

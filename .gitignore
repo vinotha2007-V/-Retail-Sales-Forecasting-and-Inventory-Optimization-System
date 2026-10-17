@@ -1,0 +1,63 @@
+# ─── Virtual Environments ────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Python Cache ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ─── Testing & Coverage ──────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ─── Environment & Secrets ───────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ─── Jupyter Notebooks (checkpoints only) ───────────────────────
+.ipynb_checkpoints/
+
+# ─── Build & Distribution ────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ─── IDEs & Editors ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS Files ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Temporary Files ─────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
+*.log
+
+# ─── Streamlit Cache ─────────────────────────────────────────────
+.streamlit/
+
+# ─── NOT ignored (keep these in version control) ─────────────────
+# src/           — all source code
+# tests/         — all test files
+# docs/          — documentation
+# images/        — screenshots and diagrams
+# outputs/       — generated reports and figures
+# notebooks/     — Jupyter notebooks (not checkpoints)
+# requirements.txt, .gitignore, README.md, main.py
+models/retail_sales_model.joblib
